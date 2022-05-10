@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  rgb(171, 220, 204);
+}
+
+#logo{
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 30px;
+    width: auto;
+}
+
+h4{
+    padding: 5px;
+}
+
+body header{
+    background-color: #ffffff;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    align-items: center;
+    padding: 15px;
+}
+
+#aviso{
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+#admiracion{
+    width: 20px;
+    height: 20px;
+}
+
+h6{
+    margin-left: 10px;
+}
+
+.area1{
+    border: none;
+    background-color: transparent;
+    height: 220px;
+    width: 500px;
+}
+
+.area2{
+    border: none;
+    background-color: transparent;
+    height: 245px;
+    width: 500px;
+}
+
+.btn{
+    font-size:15px;
+    font-weight:bold;
+    color: antiquewhite;
+    background-image:linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:20px;    
+    align-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.btn2{
+    font-size:15px;
+    font-weight:bold;
+    color: antiquewhite;
+    background-image:linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:20px;    
+    align-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 210px;
+    cursor: pointer;
+}
+
+.redes{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+h5{
+    text-align: center;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+#cuadroDerecha{
+    display: none;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    align-items: center;
+}
+
+#detective{
+    height: 200px;
+    width: auto;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
