@@ -20,6 +20,7 @@ h4{
 
 body header{
     background-color: #ffffff;
+    display: flex;
 }
 
 main{
@@ -106,6 +107,7 @@ h5{
 footer{
     background-color: black;
     text-align: center;
+    
 }
 
 footer a{
@@ -127,7 +129,54 @@ h3{
     text-align: center;
 }
 
+@media(max-width: 768px){
+    main{
+        flex-direction: column;
+    }
+    h3{
+        margin-left: -140px;
+    }
+    footer{
+        margin-left: -120px;
+    }
+}
 
+@media(max-width: 375px){
+    .area1{
+        height: 100px;
+        width: 330px;
+    }
+    .area2{
+        height: 100px;
+        width: 330px;
+    }
+
+    #aviso{
+        margin-left: 50px;
+    }
+    .btn{
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+
+    .btn2{
+        margin-left: 130px;
+    }
+    #detective{
+        height: 150px;
+        width: auto;
+        margin-left: 100px;
+    }
+    h3{
+        font-size: 15px;
+        margin-left: 12px;
+    }
+
+    footer{
+        margin-left: 0px;
+    }
+}
 
 
 
