@@ -141,7 +141,7 @@ h3{
     }
 }
 
-@media(max-width: 375px){
+@media(max-width: 510px){
     .area1{
         height: 100px;
         width: 330px;
